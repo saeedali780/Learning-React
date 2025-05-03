@@ -4,7 +4,9 @@ import Hello from './components/hello.jsx'
 const App = () => {
   return (
     <div>
-      <Hello/>
+      <Hello name="Saeed" age="12"/>
+      <Hello name="Jerry" age="12"/>
+      <Hello name="Mike" age="12"/>
     </div>
   )
 }
