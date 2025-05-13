@@ -1,12 +1,14 @@
 import React from 'react'
-import Hello from './components/hello.jsx'
+import ConditionalComponent from './components/ConditionalComponent'
+
+//import Fruit from './components/Fruit.jsx'
 
 const App = () => {
+
   return (
     <div>
-      <Hello name="Saeed" age="18"/>
-      <Hello name="Jerry" age="12"/>
-      <Hello name="Mike" age="20" emoji="❤"/>
+      <ConditionalComponent/>
+      {/* <Fruit /> */}
     </div>
   )
 }

@@ -1,10 +1,10 @@
 import React from 'react'
 
-const Hello = ({name,age,emoji}) => {
+const Hello = ({person}) => {
 
   return (
     <div>
-      <h1>Hello {name} my Age is {+age} {emoji}</h1>
+      <h1>Hello {person.name}</h1>
     </div>
   )
 }
