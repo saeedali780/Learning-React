@@ -1,15 +1,11 @@
 import React from 'react'
 
-const Fruit = () => {
-    const fruits =["apple","mango","Banana","Orange"];
+const Fruit = ({name,color,taste,price,emoji,soldOut}) => {
   return (
-    <div>
-        <ul>
-        {fruits.map((fruit)=>(
-            <li key={fruit}>{fruit}</li>
-        ))}
-        </ul>
-    </div>
+    <>
+        {/* {name} {color} {taste} {price} */}
+        {price > 0  ? <li>{emoji} {name} {color} {taste} {price} {soldOut ? "soldOut" :""}</li> : ""}
+    </>
   )
 }
 

@@ -1,14 +1,16 @@
 import React from 'react'
-import ConditionalComponent from './components/ConditionalComponent'
+//import ConditionalComponent from './components/ConditionalComponent'
 
-//import Fruit from './components/Fruit.jsx'
+import Fruits from './components/Fruits.jsx'
+import Message from './components/Message.jsx'
 
 const App = () => {
 
   return (
     <div>
-      <ConditionalComponent/>
-      {/* <Fruit /> */}
+      {/* <ConditionalComponent/> */}
+      <Message/>
+      <Fruits />
     </div>
   )
 }

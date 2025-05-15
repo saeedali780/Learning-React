@@ -1,9 +1,18 @@
-import React from 'react'
+import React from 'react';
 
 const ConditionalComponent = () => {
     let isHappy = true;
-  
-     return   isHappy ? <h1>mesaageOne</h1> : <h1>messageTwo</h1>;
+    const fruits = ['apple', 'banana', 'orange', 'mango', 'strawberry'];
+    return(
+        isHappy ? (
+        fruits.map((fruit)=>(
+            <h1 key={fruit}>{fruit}</h1>
+        ))
+    ):(
+        <h1>Condition false</h1>
+    )
+      
+    )
 
   
 }
