@@ -9,8 +9,8 @@ const App = () => {
   return (
     <div>
       {/* <ConditionalComponent/> */}
-      <Message/>
-      <Fruits />
+      {/* <Message/>
+      <Fruits /> */}
     </div>
   )
 }
